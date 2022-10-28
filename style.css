@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	flex-wrap: wrap;
+	padding: 10px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Courier New', monospace;
+}
+.header {
+	display: flex;
+	padding: 30px;
+	background-image: url("../StarkIndustries-Projekt/slike/stark.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 450px;
+}
+.navigacija {
+	background-color: #333;
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+	top: 20;
+	font-family: "URW Chancery L",cursive;
+
+}
+.navigacija a {
+	float: left;
+	display: flex;
+	justify-content: left;
+	display: block;
+	color: #0080ff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.navigacija a:hover {
+	background-color: #0080ff;
+	color: #333;
+}
+.sadrzaj{
+	flex:1;  
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 15px;
+}
+.leftcolumn {  
+	display: flex;
+	float: left;
+	flex: 50%;
+	margin: 20px;
+	content: "";
+	display: table;
+	clear: both;
+}
+.rightcolumn {
+	display: flex;
+	justify-content: flex-end;
+	flex: 20%;
+	margin: 20px;
+	content: "";
+	display: table;
+	clear: both;
+}
+.image {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.odlomak {
+	background-color: #1a1a1a;
+	padding: 10px;
+	margin-top: 20px;
+	color: #d9d9d9;
+}
+.odlomak h1,h2,h3,h4,h5,h6{
+	color: #0080ff;
+}
+.vise{
+	color: #bf80ff;
+}
+.kviz {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 27px;
+	margin: 20px;
+	background-color: #1a1a1a;
+	padding: 40px;
+	color: #d9d9d9;
+	display: table;
+	clear: both;
+}	
+.sadrzaj:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.naglaseno{
+	color:  #bf80ff;
+}
+.footer {
+	padding: 5px;
+	text-align: center;
+	background: #333;
+	margin-top: 10px;
+	
+}
+.footer a{
+	color: #0080ff;
+	text-decoration: none;
+}
+.footer a:hover{
+	color: #bf80ff;
+}
