@@ -5,3 +5,4 @@ Projektni zadatak u svrhe kolegija Mrežne usluge i programiranje. Web stranica 
 
 Mentorica: Haidi Božiković <br>
 03/2021 - 06/2021
+<br><br>Web stranica se može pogledati na sljedećem linku https://youtu.be/WDDcxJK_ITI
